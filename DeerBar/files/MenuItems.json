@@ -1,0 +1,116 @@
+﻿{
+  "MenuItems": [
+    {
+      "itemName": "Beer",
+      "command": "/beer",
+      "orderMessage": "@$(0) has ordered a $(1)!",
+      "customMessage": "*Gives @$(0) their $(1)*",
+      "Cost": 2
+    },
+    {
+      "itemName": "Blood",
+      "command": "/blood",
+      "orderMessage": "@$(0) has ordered the blood of the innocent... I'm slightly concerned.",
+      "customMessage": "*dips @(0) in lava*",
+      "Cost": 2
+    },
+    {
+      "itemName": "Dick",
+      "command": "/dick",
+      "orderMessage": "@$(0) has ordered $(1)!",
+      "customMessage": "*Gives @$(0) spotted dick* \n\nGotta be english to get this one ;)",
+      "Cost": 5
+    },
+    {
+      "itemName": "Steak",
+      "command": "/steak",
+      "orderMessage": "@$(0) has ordered a $(1)!",
+      "customMessage": "*Gives @$(0) their steak* \n\nBlood dripping down as they chew it slowly. \n#gore",
+      "Cost": 5
+    },
+    {
+      "itemName": "Cookies",
+      "command": "/cookies",
+      "orderMessage": "@$(0) has ordered $(1)!",
+      "customMessage": "*Gives @$(0) their $(1)!",
+      "Cost": 5
+    },
+    {
+      "itemName": "Hot Chocolate",
+      "command": "/hotchocolate",
+      "orderMessage": "@$(0) has ordered a $(1)... \n\nCaution: HOT",
+      "customMessage": "*Gives @$(0) their $(1)!",
+      "Cost": 2
+    },
+    {
+      "itemName": "Sandwich",
+      "command": "/sandwich",
+      "orderMessage": "@$(0) has ordered a $(1)... \n\nCaution: HOT ;)",
+      "customMessage": "*Gives @$(0) their $(1)! \n\nThe label reads: 'contains extra condiments'",
+      "Cost": 5
+    },
+    {
+      "itemName": "Beer",
+      "command": "/beer",
+      "orderMessage": "@$(0) has ordered a $(1)!",
+      "customMessage": "*Gives @$(0) their $(1)!",
+      "Cost": 2
+    },
+    {
+      "itemName": "Snowball",
+      "command": "/snowball",
+      "orderMessage": "@$(0) has ordered a $(1)!",
+      "customMessage": "*Gives @$(0) their $(1)!",
+      "Cost": 2
+    },
+    {
+      "itemName": "Vodka",
+      "command": "/vodka",
+      "orderMessage": "@$(0) has ordered a $(1)!",
+      "customMessage": "*Gives @$(0) their $(1)!",
+      "Cost": 2
+    },
+    {
+      "itemName": "Water",
+      "command": "/water",
+      "orderMessage": "@$(0) has ordered a fucking $(1)!",
+      "customMessage": "*Gives @$(0) their $(1)!",
+      "Cost": 10
+    },
+    {
+      "itemName": "Tea",
+      "command": "/tea",
+      "orderMessage": "@$(0) has ordered a $(1)!",
+      "customMessage": "*Gives @$(0) their $(1)! \n\nFucking brit.",
+      "Cost": 2
+    },
+    {
+      "itemName": "Green Tea",
+      "command": "/greentea",
+      "orderMessage": "@$(0) has ordered a $(1)!",
+      "customMessage": "*Gives @$(0) their $(1)! \n\nFucking brit.",
+      "Cost": 2
+    },
+    {
+      "itemName": "Blowjob Cocktail",
+      "command": "/blowjob",
+      "orderMessage": "@$(0) has ordered a $(1)! \n\nI'll see them at the back.",
+      "customMessage": "*Gives @$(0) their $(1)! \n\nIt's a cocktail. \n\nhttps://www.liquor.com/recipes/blow-job/",
+      "Cost": 2
+    },
+	{
+      "itemName": "Blowjob",
+      "command": "/blowjob",
+      "orderMessage": "@$(0) has ordered a $(1)! \n\nI'll see them at the back.",
+      "customMessage": "*Gives @$(0) their $(1)! \n\nIt's a cocktail. \n\nhttps://www.liquor.com/recipes/blow-job/",
+      "Cost": 2
+    },
+    {
+      "itemName": "Blood",
+      "command": "/blood",
+      "orderMessage": "@$(0) has ordered the blood of the innocent... I'm slightly concerned.",
+      "customMessage": "*dips @(0) in lava*",
+      "Cost": 2
+    }
+  ]
+}

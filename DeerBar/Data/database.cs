@@ -11,4 +11,10 @@ namespace Dark.Modules.Data
         public long Coins { get; set; }
         public int Daily { get; set; }
     }
+
+    public class delete
+    {
+        public long CID { get; set; }
+        public long MID { get; set; }
+    }
 }

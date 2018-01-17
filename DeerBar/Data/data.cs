@@ -63,6 +63,31 @@ namespace Dark.Modules.Data
             return null;
         }
 
+        public static string DelMsg(long chatid, int messageid)
+        {
+            var database = new Database("dragonscale");
+
+            var str = string.Format("INSERT INTO `del` (chat_id, message_id) VALUES ('{0}', '{1}')", chatid, messageid);
+            var table = database.FireCommand(str);
+
+            database.CloseConnection();
+
+            return null;
+        }
+
+        public static string DelDelMsg(long chatid)
+        {
+            var database = new Database("dragonscale");
+
+            var str = string.Format("DELETE FROM `del` WHERE chat_id = '{0}'", chatid);
+            var table = database.FireCommand(str);
+
+            database.CloseConnection();
+
+            return null;
+        }
+
+
         public static string AddCoins(int teleid, int coins)
         {
             var database = new Database("dragonscale");
@@ -119,6 +144,33 @@ namespace Dark.Modules.Data
                     
                     Coins = Coins,
                     Daily = Daily,
+                });
+            }
+            database.CloseConnection();
+
+            return result;
+        }
+
+        public static List<delete> GetMessageID(long chatid)
+        {
+            var result = new List<delete>();
+
+            var database = new Database("telegram");
+
+            var str = string.Format("SELECT * FROM `del` WHERE chat_id = '{0}'", chatid);
+            var tableName = database.FireCommand(str);
+
+            while (tableName.Read())
+            {
+
+                var CID = (long)tableName["chat_id"];
+                var MID = (long)tableName["message_id"];
+
+                result.Add(new delete
+                {
+
+                    CID = CID,
+                    MID = MID,
                 });
             }
             database.CloseConnection();
